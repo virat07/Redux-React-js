@@ -39,22 +39,12 @@ class App extends Component {
   }
   handleclick = (value, bookDetail) => {
     let x = value.target.id;
-
-    if (x === 'All') {
-      console.log('all')
-    } else {
-      let newArray = Object.values(bookDetail[x])
-      console.log(newArray)
-      this.setState({
-        ...this.state,
-        updates: newArray
-      })
-
-    }
+    let newArray = Object.values(bookDetail[x])
+    this.setState({
+      ...this.state,
+      updates: newArray
+    })
   }
-
-
-
   render() {
     let category = this.state.category;
     return (

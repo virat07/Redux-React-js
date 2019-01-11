@@ -15,9 +15,9 @@ function RightSide(props) {
                     <h2>Category</h2>
               </div>
                 {Detailed.map(Detailed => <div className='row' key={Detailed.name}>
-                    <div className='column'>{Detailed.name}</div>
-                    <div className='column'>{Detailed.description}</div>
-                    <div className='column'>{Detailed.category} </div>
+                        <div className='column'>{Detailed.name}</div>
+                        <div className='column'>{Detailed.description}</div>
+                        <div className='column'>{Detailed.category} </div>
                 </div>
                 )}
             </div>
