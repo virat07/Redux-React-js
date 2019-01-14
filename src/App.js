@@ -19,7 +19,7 @@ class App extends Component {
     this.fetchData();
   }
   fetchData() {
-    fetch("http://www.json-generator.com/api/json/get/bUsVdCWuRe?indent=2", {
+    fetch("http://www.json-generator.com/api/json/get/bUmCwZpDtu?indent=2", {
       method: "GET",
       dataType: "JSON",
     })
